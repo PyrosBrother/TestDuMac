@@ -61,5 +61,22 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButtonFermer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogAbout</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
