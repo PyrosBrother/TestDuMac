@@ -24,7 +24,7 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Développé pour tester Git sur un projet réel - Juin 2011</string>
+      <string>Développé pour tester Git sur un projet réel en Juin 2011</string>
      </property>
     </widget>
    </item>
