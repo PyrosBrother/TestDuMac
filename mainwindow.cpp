@@ -20,3 +20,8 @@ void MainWindow::on_action_A_propos_triggered()
 
     about->exec();
 }
+
+void MainWindow::on_action_Quitter_triggered()
+{
+    close();
+}

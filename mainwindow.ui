@@ -20,7 +20,7 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>22</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -29,6 +29,13 @@
     </property>
     <addaction name="action_A_propos"/>
    </widget>
+   <widget class="QMenu" name="menu_Quit">
+    <property name="title">
+     <string>&amp;Fichier</string>
+    </property>
+    <addaction name="action_Quitter"/>
+   </widget>
+   <addaction name="menu_Quit"/>
    <addaction name="menu"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
@@ -43,6 +50,11 @@
   <action name="action_A_propos">
    <property name="text">
     <string>&amp;A propos...</string>
+   </property>
+  </action>
+  <action name="action_Quitter">
+   <property name="text">
+    <string>&amp;Quitter</string>
    </property>
   </action>
  </widget>

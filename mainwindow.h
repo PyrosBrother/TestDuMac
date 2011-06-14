@@ -18,6 +18,8 @@ public:
 private slots:
     void on_action_A_propos_triggered();
 
+    void on_action_Quitter_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
